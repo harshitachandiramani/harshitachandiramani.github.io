@@ -33,13 +33,13 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 data-testid={`nav-link-${link.name.toLowerCase().replace(' ', '-')}`}
-                className={`text-sm font-medium tracking-wide transition-all duration-300 ${
+                className={`text-sm font-medium tracking-wide transition-all duration-300 whitespace-nowrap ${
                   isActive(link.path)
                     ? 'text-white border-b-2 border-white pb-1'
                     : 'text-gray-300 hover:text-white'
