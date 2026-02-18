@@ -20,7 +20,7 @@ const WorkPage = () => {
       title: 'Enterprise Comms & Thought Leadership',
       icon: <Megaphone size={24} />,
       skills: [
-        'External Communications: Brand partnerships (L'Oréal x IBM, Al Futtaim x IBM, Dubai Future Foundation)',
+        "External Communications: Brand partnerships (L'Oreal x IBM, Al Futtaim x IBM, Dubai Future Foundation)",
         'Content planning, media interviews, shadow-writing for leaders',
         'Awards submissions',
         'Internal Communications: Amplification, announcements, leadership blogs',
