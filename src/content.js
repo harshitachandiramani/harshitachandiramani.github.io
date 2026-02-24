@@ -25,9 +25,9 @@ export const siteContent = {
   nav: {
     links: [
       { name: 'About Me', path: '/about' },
-      { name: 'Why Me',   path: '/why-me' },
+      { name: 'Why Me', path: '/why-me' },
       { name: 'The Work', path: '/work' },
-      { name: 'Contact',  path: '/contact' },
+      { name: 'Contact', path: '/contact' },
     ],
   },
 
@@ -36,7 +36,7 @@ export const siteContent = {
   // HOME PAGE
   // ---------------------------------------------------------------------------
   home: {
-    title: 'My Portfolio',
+    title: 'Harshita Chandiramani',
     bio: "Hi! I'm Harshita, a Dubai-based brand & marketing executive working across luxury, FMCG, and tech brands.",
     ctaButton: 'View Selected Work',
 
@@ -61,10 +61,10 @@ export const siteContent = {
 
     // Ikigai diagram labels (the four circles)
     ikigai: {
-      top:    'Passion',
+      top: 'Passion',
       bottom: 'Impact',
-      left:   'Skills',
-      right:  'Career',
+      left: 'Skills',
+      right: 'Career',
       center: 'IKIGAI',
     },
   },
@@ -95,16 +95,16 @@ export const siteContent = {
     // Brand grid — 4 images shown in a 2x2 grid
     // Replace image filenames in public/images/ with your own brand photos
     brands: [
-      { name: 'GB',              image: '/images/brand-gb.jpg',     imageAlt: 'Chocolate Brand - GB' },
-      { name: 'PEPSI',           image: '/images/brand-pepsi.jpg',  imageAlt: 'PEPSI Brand' },
-      { name: 'BVLGARI',         image: '/images/brand-bvlgari.jpg', imageAlt: 'Luxury Jewelry - BVLGARI' },
+      { name: 'GB', image: '/images/brand-gb.jpg', imageAlt: 'Chocolate Brand - GB' },
+      { name: 'PEPSI', image: '/images/brand-pepsi.jpg', imageAlt: 'PEPSI Brand' },
+      { name: 'BVLGARI', image: '/images/brand-bvlgari.jpg', imageAlt: 'Luxury Jewelry - BVLGARI' },
       { name: 'Miss L BY LAZURD', image: '/images/brand-missl.jpg', imageAlt: 'Miss L by Lazurd' },
     ],
 
     // Social media stat cards shown below the brand grid
     socialCards: [
-      { username: 'redrockdeli_aus', category: 'Food & Drink',           followers: '15.2K' },
-      { username: 'yoursharjah',     category: 'Your Gateway to Sharjah', followers: '89.5K' },
+      { username: 'redrockdeli_aus', category: 'Food & Drink', followers: '15.2K' },
+      { username: 'yoursharjah', category: 'Your Gateway to Sharjah', followers: '89.5K' },
     ],
   },
 
@@ -119,13 +119,13 @@ export const siteContent = {
 
     // Filter buttons at the top of the Work page
     categories: [
-      { id: 'all',        name: 'All Work' },
+      { id: 'all', name: 'All Work' },
       { id: 'enterprise', name: 'Enterprise Comms' },
-      { id: 'events',     name: 'Events & Activations' },
-      { id: 'social',     name: 'Social Media' },
+      { id: 'events', name: 'Events & Activations' },
+      { id: 'social', name: 'Social Media' },
       { id: 'influencer', name: 'Influencer' },
-      { id: 'strategy',   name: 'Brand Strategy' },
-      { id: 'paid',       name: 'Paid Social' },
+      { id: 'strategy', name: 'Brand Strategy' },
+      { id: 'paid', name: 'Paid Social' },
     ],
 
     workItems: [
@@ -245,17 +245,17 @@ export const siteContent = {
       {
         title: 'High-Performance Examples',
         items: [
-          { account: '@yoursharjah',     text: "Rather than focusing solely on showcasing the city's main tourist attractions, posts highlighting the untold stories of Sharjah's people performed exceptionally well organically compared to paid campaigns.", metric: '8,321 likes' },
+          { account: '@yoursharjah', text: "Rather than focusing solely on showcasing the city's main tourist attractions, posts highlighting the untold stories of Sharjah's people performed exceptionally well organically compared to paid campaigns.", metric: '8,321 likes' },
           { account: '@redrockdeli_aus', text: "The campaign strategy was successful through a balanced mix of organic and paid content, generating significant engagement and conversation on each post.", metric: '9M views' },
-          { account: '@monash_uni',      text: "Combining platform trends with campus focused, student life content proved to be the most hit. The new account consistently outperformed benchmark KPIs.", metric: '7,469 likes' },
+          { account: '@monash_uni', text: "Combining platform trends with campus focused, student life content proved to be the most hit. The new account consistently outperformed benchmark KPIs.", metric: '7,469 likes' },
         ],
       },
       {
         title: 'Additional Examples',
         items: [
           { account: '@smithschipsaus', text: "Return of Gobbledok strategy on social proved a lot of buzz, with launch videos garnering on average a million views." },
-          { account: '@zayedu',         text: "Assisted in live event video coverage, by leading the production team to create polished reels with a same-day turnaround." },
-          { account: 'Own Account',     text: "Achieved high organic views and video results on my own Instagram page within a month of launch." },
+          { account: '@zayedu', text: "Assisted in live event video coverage, by leading the production team to create polished reels with a same-day turnaround." },
+          { account: 'Own Account', text: "Achieved high organic views and video results on my own Instagram page within a month of launch." },
         ],
       },
     ],
@@ -292,10 +292,10 @@ export const siteContent = {
     ctaButton: 'Send an Email',
     pageNumber: 'Page | 16',
 
-    phone:           '+971552061234',
-    email:           'harshita.c@hotmail.com',
-    linkedin:        'https://www.linkedin.com/in/harshitachandiramani',
+    phone: '+971552061234',
+    email: 'harshita.c@hotmail.com',
+    linkedin: 'https://www.linkedin.com/in/harshitachandiramani',
     linkedinDisplay: 'linkedin.com/harshitachandiramani',
-    location:        'Dubai',
+    location: 'Dubai',
   },
 };
