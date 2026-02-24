@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { siteContent } from '../content';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
-  const navLinks = [
-    { name: 'About Me', path: '/about' },
-    { name: 'Why Me', path: '/why-me' },
-    { name: 'The Work', path: '/work' },
-    { name: 'Contact', path: '/contact' },
-  ];
+  const navLinks = siteContent.nav.links;
 
   const isActive = (path) => location.pathname === path;
 
@@ -29,7 +25,7 @@ const Navbar = () => {
             className="font-serif text-xl md:text-2xl font-semibold text-white hover:opacity-80 transition-opacity"
             data-testid="nav-logo"
           >
-            Harshita Chandiramani
+            {siteContent.name}
           </Link>
 
           {/* Desktop Navigation */}
