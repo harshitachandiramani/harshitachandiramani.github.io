@@ -38,7 +38,7 @@ export const siteContent = {
   home: {
     title: 'Harshita Chandiramani',
     bio: "Hi! I'm Harshita, a Dubai-based brand & marketing executive working across luxury, FMCG, and tech brands.",
-    ctaButton: 'View Selected Work',
+    ctaButton: 'Explore Selected Work',
 
     // Image: replace hero.jpg in public/images/ with your own photo
     heroImage: '/images/hero.jpg',
